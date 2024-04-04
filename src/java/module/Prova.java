@@ -9,7 +9,11 @@ package module;
  * @author Diego
  */
 import java.util.Date;
+import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ManagedBean;
 
+@ManagedBean
+@SessionScoped
 public class Prova {
     private int numeroMatricula;
     private String nomeAluno;
