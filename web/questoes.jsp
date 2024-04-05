@@ -13,7 +13,9 @@
             for (int i = 1; i <= numQuestoes; i++) {
                 int num1 = (int) (Math.random() * 9) + 1;
                 int num2 = (int) (Math.random() * 9) + 1;
-                out.println("<p>Questão " + i + ": " + num1 + " vezes " + num2 + " = </p>");
+                out.println("<p>Questão (" + i + "): " + num1 + " * " + num2 + " = </p>");
+                out.println("<input type='hidden' name='num1" + i + "' value='" + num1 + "'>");
+                out.println("<input type='hidden' name='num2" + i + "' value='" + num2 + "'>");
                 out.println("<input type='text' name='resposta" + i + "' required><br>");
             }
         %>

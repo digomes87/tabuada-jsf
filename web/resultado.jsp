@@ -13,8 +13,8 @@
 </head>
 <body>
     <h1>Resultado!</h1>
-    <p>Matrícula: <%= request.getParameter("matricula") %></p>
-    <p>Nome: <%= request.getParameter("nome") %></p>
+    <p>Matrícula: <%= request.getAttribute("matricula") %></p>
+    <p>Nome: <%= request.getAttribute("nome") %></p>
     <p>Nota Obtida: <%= request.getAttribute("nota") %></p>
 </body>
 </html>

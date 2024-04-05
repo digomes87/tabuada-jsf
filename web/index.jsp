@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Prova de Tabuada Online</h1>
-    <form action="questoes.jsp" method="post">
+    <form action="questoes" method="post">
         <label for="matricula">Matrícula:</label>
         <input type="text" id="matricula" name="matricula" required>
         <br>
